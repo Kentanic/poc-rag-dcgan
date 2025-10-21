@@ -238,7 +238,7 @@ http://localhost:8501
 
 ## UI Snapshots
 
-![RAG-retreival](images/ui-1.png)
-![RAG-output](images/ui-2.png)
-![GEN-model](images/ui-3.png)
-![GEN-output](images/ui-4.png)
+![RAG-retreival](images/ui-1.jpeg)
+![RAG-output](images/ui-2.jpeg)
+![GEN-model](images/ui-3.jpeg)
+![GEN-output](images/ui-4.jpeg)
