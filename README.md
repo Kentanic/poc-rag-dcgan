@@ -235,3 +235,10 @@ http://localhost:8501
 | **LLM** | TinyLlama (GGUF, via llama.cpp) |
 | **Framework** | PyTorch |
 | **Generative Model** | DCGAN |
+
+## UI Snapshots
+
+![RAG-retreival](images/ui-1.png)
+![RAG-output](images/ui-2.png)
+![GEN-model](images/ui-3.png)
+![GEN-output](images/ui-4.png)
