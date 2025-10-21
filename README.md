@@ -1,10 +1,10 @@
-# 🚗 BMW PoC — Offline RAG + Generative AI Demo
+# PoC — Offline RAG + Generative AI Demo
 
 ### A Dual-Pipeline AI Sandbox built for Automotive Knowledge Intelligence and Synthetic Data Generation
 
 ---
 
-## 🌐 Overview
+## Overview
 
 This Proof of Concept (PoC) demonstrates a **fully offline, end-to-end AI stack** that combines:
 
@@ -12,11 +12,11 @@ This Proof of Concept (PoC) demonstrates a **fully offline, end-to-end AI stack*
 2. **Generative Adversarial Networks (DCGAN)** — for local image synthesis and experimentation in data generation.
 
 All components run **locally on CPU/GPU**, using open-source models and frameworks (PyTorch, FAISS, BM25, llama.cpp).  
-No internet or API dependency — ideal for secure, on-premises use cases such as **BMW’s automotive R&D data environments**.
+No internet or API dependency — ideal for secure, on-premises use cases such as automotive R&D data environments**.
 
 ---
 
-## 🧩 System Architecture
+## System Architecture
 
 ### **1. Retrieval-Augmented Generation (RAG)**
 
@@ -98,7 +98,7 @@ batch_size = 128
 
 ---
 
-## 🖥️ Streamlit UI
+## Streamlit UI
 
 The Streamlit dashboard acts as the control center — unifying the RAG and GAN pipelines.
 
@@ -116,22 +116,22 @@ The Streamlit dashboard acts as the control center — unifying the RAG and GAN 
 
 ### **Tabs Overview**
 
-#### 📘 **Ingest PDFs**
+#### **Ingest PDFs**
 Upload files → click **Build / Rebuild Indexes**.  
 Creates FAISS + BM25 indexes and saves metadata in JSONL.
 
-#### 💬 **Search & Answer**
+#### **Search & Answer**
 Ask questions → retrieves, reranks, and generates grounded answers from the ingested PDFs.  
 Citations like `[id p2]` show where the answer came from.
 
-#### 📈 **Metrics**
+#### **Metrics**
 Displays latency (p50/p95) for retrieval and reranking.  
 Future extension for Recall@k, nDCG, and Faithfulness metrics.
 
-#### 📋 **Inspect Index**
+#### **Inspect Index**
 Preview ~50 text chunks from the FAISS/BM25 indexes for data verification.
 
-#### 🧬 **Generative (DCGAN)**
+#### **Generative (DCGAN)**
 Train or sample from a local GAN.
 - **Quick Demo:** Fashion-MNIST (auto-downloaded)
 - **Fine-Tune Mode:** Uses images from `data/custom_images/`
@@ -142,7 +142,7 @@ Buttons:
 
 ---
 
-## 🧱 Folder Structure
+## Folder Structure
 
 ```
 poc-bmw/
@@ -162,7 +162,7 @@ poc-bmw/
 
 ---
 
-## ⚙️ Configuration (`configs/default.yaml`)
+## Configuration (`configs/default.yaml`)
 
 ```yaml
 paths:
@@ -192,7 +192,7 @@ generation:
 
 ---
 
-## 🧾 Key Artifacts
+## Key Artifacts
 
 | Artifact | Description | Path |
 |-----------|--------------|------|
@@ -204,7 +204,7 @@ generation:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 # 1. Install dependencies
@@ -224,7 +224,7 @@ http://localhost:8501
 
 ---
 
-## 🧠 Technology Stack
+## Technology Stack
 
 | Component | Technology |
 |------------|-------------|
